@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISBekap_2Товар",
+  "modelName": "i-i-s-bekap-2-товар",
+  "className": "Товар",
+  "nameSpace": "IIS.Bekap_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "мат",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "производитель",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "товара",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТоварE",
+      "modelName": "i-i-s-bekap-2-товар",
+      "attrs": [
+        {
+          "name": "производитель",
+          "caption": "Производитель",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "товара",
+          "caption": "Товара",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "мат",
+          "caption": "Мат",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТоварL",
+      "modelName": "i-i-s-bekap-2-товар",
+      "attrs": [
+        {
+          "name": "производитель",
+          "caption": "Производитель",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "товара",
+          "caption": "Товара",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "мат",
+          "caption": "Мат",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

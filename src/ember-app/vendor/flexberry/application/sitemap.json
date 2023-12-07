@@ -1,0 +1,73 @@
+﻿{
+  "applicationCaption": "Bekap_2",
+  "applicationTitle": "Bekap_2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "главная-страничка",
+      "caption": "Главная страничка",
+      "title": "Главная страничка",
+      "children": [
+        {
+          "link": "i-i-s-bekap-2-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-bekap-2-визит-l",
+          "menuName": null,
+          "caption": "Визит",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-bekap-2-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-bekap-2-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-услуг",
+      "caption": "справочник услуг",
+      "title": "справочник услуг",
+      "children": [
+        {
+          "link": "i-i-s-bekap-2-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "Услуга",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-клиенты",
+      "caption": "справочник клиенты",
+      "title": "справочник клиенты",
+      "children": [
+        {
+          "link": "i-i-s-bekap-2-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "Клиент",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

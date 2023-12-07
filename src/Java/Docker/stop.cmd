@@ -1,0 +1,1 @@
+docker-compose -p bekap_2-java down
